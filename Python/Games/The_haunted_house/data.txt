@@ -1,0 +1,53 @@
+# Full name: Duyen Ngoc Ky Nguyen
+
+# The chosen format is "Area_name:Area_Description:Exit_direction_to_the_North:Exit_direction_to_the_South:Exit_direction_to_the_West:Exit_direction_to_the_East:Location_Upstairs:Location_Downstairs:Object_name:Object_Description"
+# Reason for choosing it: 
+# Firstly, using this ":" will allow me to read and split the data into the memory easily as separate categories.
+# Secondly, to easily implement the code later, I decided that each room has a maximum of 1 object. Hence there will be 10 areas without any objects, and I will fill all related information regarding the object in those areas as "None". 
+# Thirdly, each area can have a maximum of 4 neighbouring areas and some will have less. Thus, I would fill it as "None" if the neighbouring area in a specific direction doesn't exist.
+# Last but not least, some areas can be located next to upstairs and downstairs. I will also fill "None" for the areas when they aren't located next to the stairs.
+
+# In order to complete the game: The player must explore all 20 areas and examine enough 10 objects.
+# The actual descriptions of each room, object, and exit is as follow:
+
+Entrance door:None:None:None:Overgrown Courtyard:Mystical Rose Garden:None:None:None:None
+
+Overgrown Courtyard:The overgrown courtyard, with cracked statues, is reclaimed by nature. Moonlight casts eerie shadows, and the vegetation tells tales of the mansion's supernatural history.:Haunted Garden Maze:None:None:Entrance Door:None:None:None:None
+
+Mystical Rose Garden:The mystical rose garden is filled with ghostly blooms. Each flower holds a secret, and the garden becomes a puzzle of supernatural proportions.:Spectral Graveyard Chapel:None:Entrance door:None:None:None:None:None
+
+Spectral Graveyard Chapel:The spectral graveyard chapel stands at the center of the haunted cemetery. Stained glass windows cast reflections on tombstones, and the chapel becomes a focal point for understanding the spiritual energy surrounding the area.:Spectral Chapel:Mystical Rose Garden:Spooky Forest Path:Forgotten Cemetery:None:None:None:None
+
+Forgotten Cemetery:The forgotten cemetery, behind the mansion, is filled with weathered tombstones. Clues among the graves reveal connections to the mansion's haunted past.:None:None:Spectral Graveyard Chapel:None:None:None:Chipped Crystal Ball:The chipped crystal ball, mystical and cracked, reveals glimpses of ghostly apparitions. The player feels an otherworldly energy, connecting them to the supernatural forces within the mansion.
+
+Spooky Forest Path:The spooky forest path winds through the haunted forest. Ghostly lights guide the player, and the path becomes a journey into the heart of the supernatural.:Ephemeral Pond:None:Haunted Garden Maze:Spectral Graveyard Chapel:None:None:None:None
+
+Ephemeral Pond:The ephemeral pond, surrounded by willow trees, reflects ghostly ripples. A faint glow hints at hidden messages, making the pond a pivotal point for unraveling spectral secrets.:None:Spooky Forest Path:None:None:None:None:None:None
+
+Haunted Garden Maze:The haunted garden maze is a labyrinth of spectral hedges. Ghostly lights guide the player, and the maze becomes a puzzle of ethereal proportions.:Creepy Conservatory:Overgrown courtyard:None:Spooky Forest Path:None:None:Ancient Key with Phantom Glow:The ancient key, rusted and emitting a faint glow, holds an otherworldly energy. It becomes a tangible link between the player and the spectral secrets hidden in the mysterious cellar.
+
+Creepy Conservatory:The creepy conservatory, with withered plants, conceals hidden paths revealed by ghostly lights. Eerie statues stand among the vegetation, and the air is filled with whispers of the supernatural.:Haunted Art Gallery:Haunted Garden Maze:None:Spectral Chapel:None:None:Spectral Pocket Watch:The spectral pocket watch, old and with hands that move on their own, emits faint ghostly whispers. The player feels a connection to the past, unlocking the secrets of the supernatural.
+
+Spectral Chapel:The spectral chapel, with stained glass windows, hosts echoes of past ceremonies. A haunting melody emanates from a phantom organ, adding to the spiritual atmosphere of the room.:Ethereal Ballroom Balcony:Spectral Graveyard Chapel:Creepy Conservatory:None:None:None:Locket with Ghostly Photo:The locket, tarnished and containing a faded photo, seems to come to life. Eyes in the photo follow the player, and the locket emits a faint, otherworldly glow, hinting at its connection to the supernatural forces.
+
+Ethereal Ballroom Balcony:The ethereal ballroom balcony offers a spectral view of the ballroom. Phantom dancers twirl in mid-air, and the balcony becomes a key point for unraveling hidden connections in the mansion.:Creaky Dining Hall:Spectral Chapel:Haunted Art Gallery:Phantom Theater:None:Grand Foyer:Flickering Candlestick:The flickering candlestick, with an ornate design, casts shadows in the grand foyer. A chilling breeze accompanies the player as they notice a spectral handprint, leaving an eerie feeling of unseen presence.
+
+Grand Foyer:The grand foyer, once elegant, is now dusty and dim. A cracked chandelier hangs above, and a flickering candle casts eerie shadows. The grand staircase creaks, and a faded portrait's eyes seem to follow the player.:None:Mysterious Cellar:None:None:Ethereal Ballroom Balcony:None:Invisible Ink Quill:The invisible ink quill, a writing tool with unseen messages, becomes a conduit for uncovering supernatural secrets. The quill connects the player to the invisible threads of the mansion's haunted history.
+
+Mysterious Cellar:The mysterious cellar, with barrels and crates, hides forgotten relics. Strange sounds echo in the darkness, and a ghostly breeze carries the scent of old wine. An ancient key with a faint glow hints at locked mysteries.:Grand Foyer:None:None:None:None:None:None:None
+
+Haunted Art Gallery:The haunted art gallery displays portraits of ethereal figures. Some paintings follow the player's movements, and the room becomes a puzzle of shifting perspectives with hidden passages.:Abandoned Ballroom:Creepy Conservatory:None:Ethereal Ballroom Balcony:None:None:None:None
+
+Creaky Dining Hall:The creaky dining hall, set for a spectral feast, features translucent plates and tarnished silverware. Flickering candlesticks cast shadows, and a cracked mirror reveals a ghostly reflection from a long-gone celebration.:None:Ethereal Ballroom Balcony:Abandoned Ballroom:Haunted Hedge Maze:None:None:None:None
+
+Phantom Theater:The phantom theater, frozen in time, features tattered curtains and ghostly apparitions in the seats. The dilapidated stage resonates with phantom applause, creating an otherworldly symphony.:Haunted Hedge Maze:None:Ethereal Ballroom Balcony:None:None:None:None:None
+
+Haunted Hedge Maze:The haunted hedge maze is a puzzle of ghostly proportions. Phantom whispers guide the player, and the maze becomes a test of intuition and navigation through the supernatural.:None:Phantom theater:Creaky Dining Hall:None:None:None:Creaking Music Box:The creaking music box, delicate and intricate, plays haunting melodies in the abandoned ballroom. Phantom dancers twirl to the spectral tune, revealing a hidden compartment with a small, ghostly trinket.
+
+Abandoned Ballroom:The abandoned ballroom, with decaying tapestries, hosts phantom dancers in the player's imagination. Broken mirrors reflect spectral waltzes, and the air is thick with the chill of phantom hands on unseen revelers.:None:Haunted Art Gallery:None:Creaky Dining Hall:Forgotten Study:None:Eerie Doll:The eerie doll, porcelain and cracked, emanates a strange energy. Its eyes seem to follow the player, making it a focal point for uncovering hidden passages and secrets.
+
+Forgotten Study:The forgotten study holds dusty books and strange symbols on the walls. An invisible ink quill on a cluttered desk hints at hidden messages, and the room hums with otherworldly energy.:None:None:None:Ghastly Bedroom:None:Abandoned Ballroom:Torn Diary Page:The torn diary page, frayed and faded, hints at forbidden rituals. Ghostly whispers accompany the player, carrying emotions of the mansion's past inhabitants.
+
+Ghastly Bedroom:The ghastly bedrooms, with tattered curtains, echo with long-forgotten whispers. Ghostly figures appear in cracked mirrors, and faded portraits of former residents seem to watch the player's every move.:None:Haunted Library:Forgotten Study:None:None:None:Whispering Mirror:The whispering mirror, ornate and reflective, holds cryptic messages. As the player approaches, the mirror becomes a portal to a spectral realm, revealing glimpses of the past and future.
+
+Haunted Library:The haunted library is filled with dusty tomes and ghostly whispers. A torn diary page hints at the mansion's tragic past, and mysterious symbols on a desk suggest otherworldly connections.:Ghastly Bedroom:None:None:None:None:None:None:None
