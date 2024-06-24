@@ -1,2 +1,9 @@
 # Coding Practice
-Welcome to my coding practice repository! This collection showcases my journey of learning and mastering multiple programming languages, including Java, Python, C, R, and many more. Here, you will find a variety of projects and exercises covering diverse topics such as computer science fundamentals, probability theory, machine learning, etc. This repository serves as a testament to my ongoing commitment to expanding my knowledge and skills across different aspects of software development, computational sciences, machine learning and AI.
+
+Welcome to my coding practice repository!
+
+This repository represents my continuous journey of learning and mastering various programming languages, including but not limited to Java, Python, C, R, and many more. Within this repository, you will find various projects, exercises, and personal notes covering a wide range of topics, including computer science fundamentals, probability theory, machine learning, and several others.
+
+Each project and exercise included here reflects my dedication to enhancing my knowledge and skills in software development, algorithms, system programming, computational theory, machine learning, and artificial intelligence. I am committed to an ongoing process of growth and learning.
+
+I greatly appreciate your visit to this repository, and I hope you find its contents informative and inspiring.
